@@ -5,23 +5,23 @@ body {
 	margin: 0;
 }
 
-/**сбрасываем отступы у заголовков**/
+
 h1, h2, h3, h4, h5, h6 {
-margin: 0;
+	margin: 0;
 }
 
 h1{font-family: 'Playfair Display', serif;
-  text-align: center;
-  font-size: 32px;
-  padding-top: 220px;
-  margin-bottom: -40px;
-  word-spacing: 2px;
-  font-weight: 900;
+  	text-align: center;
+  	font-size: 32px;
+  	padding-top: 220px;
+  	margin-bottom: -40px;
+  	word-spacing: 2px;
+  	font-weight: 900;
 }
 
 .poloska {width: 50px;
-border-bottom: 1px solid #14929c;
-margin-top: 60px;}
+	border-bottom: 1px solid #14929c;
+	margin-top: 60px;}
 
 .container { 
 	width: 960px;
@@ -35,7 +35,7 @@ margin-top: 60px;}
 	width: 100%;
 	height: 670px;
 	min-width: 960px;
-	background: url(/image/header.png) center no-repeat;
+	background: url(image/header.png) center no-repeat;
 	background-size: cover ;
 }
 
@@ -54,17 +54,17 @@ margin-top: 60px;}
 
 /** работа с логотипом **/
 .logo {
- position: absolute;
- margin-top: 15px;
+ 	position: absolute;
+ 	margin-top: 15px;
 }
 
 /** Навигация **/
-a {text-decoration: none; 
-color: #14929c;
+	a {text-decoration: none; 
+	color: #14929c;
 }
 
 .menu {font-family: 'Roboto', sans-serif;
-font-weight: 600;
+	font-weight: 600;
 	list-style: none;
 	margin: 0;
 	text-align: center;
@@ -112,21 +112,21 @@ li {
 
 /**Content**/
 .content {
-height: 404px;
-min-width: 960px;
-max-width: 100%;
-width: 960px;
-margin: 0 auto;
+	height: 404px;
+	min-width: 960px;
+	max-width: 100%;
+	width: 960px;
+	margin: 0 auto;
 }
 
 h2 {
 	margin-top: 70px;
 	font-family: 'Playfair Display', serif;
 	word-spacing: 6px;
-  text-align: left;
-  font-size: 22px;
-  color: #413d4b;
-  text-transform: uppercase;
+  	text-align: left;
+  	font-size: 22px;
+  	color: #413d4b;
+  	text-transform: uppercase;
 }
 
 
@@ -156,11 +156,11 @@ h2 {
 }
 
 .buttom_2:hover {
-	 	border: 1px solid #14929c;
-		color: #14929c;
-		font-size: 16pt;
-		opacity: 40%;
-		cursor: pointer;
+	border: 1px solid #14929c;
+	color: #14929c;
+	font-size: 16pt;
+	opacity: 40%;
+	cursor: pointer;
 }
 
 .triagle {
@@ -168,26 +168,34 @@ h2 {
 	height: 404px;
 	padding-right: 98px;
 	padding-top: 76px;
-float: left;}
+	float: left;
+}
 
-	.checker {max-height: 800px;
-		float: left;}
+.checker {
+	max-height: 800px;
+	float: left;
+}
 
 
 
 		/**Блок с видео**/
 .container_video {
-width: 100%;
-min-width: 960px;
-max-width: 100%;
-height: 550px;
-background: url(/image/bigcity.png) center no-repeat;
-background-size: cover;}
+	width: 100%;
+	min-width: 960px;
+	max-width: 100%;
+	height: 550px;
+	background: url(image/bigcity.png) center no-repeat;
+	background-size: cover;
+}
 
-button {background: none;}
+button {
+	background: none;
+}
 
-h3 {color: #fff;
-padding-top: 32px;}
+h3 {
+	color: #fff;
+	padding-top: 32px;
+}
 
 .play {
 	padding-top: 203px;
@@ -196,11 +204,11 @@ padding-top: 32px;}
 
 /**Expertise**/
 .expertise {
-height: 755px;
-min-width: 960px;
-max-width: 100%;
-width: 100%;
-margin: 0 auto;
+	height: 755px;
+	min-width: 960px;
+	max-width: 100%;
+	width: 100%;
+	margin: 0 auto;
 } 
 
 h4 {
@@ -214,8 +222,8 @@ h4 {
 
 .poloska_2 {
 	width: 50px;
-border-bottom: 1px solid #7a7881;
-margin-top: 19px;
+	border-bottom: 1px solid #7a7881;
+	margin-top: 19px;
 }
 
 .fonts_ex {
@@ -228,20 +236,22 @@ margin-top: 19px;
 
 
 .icon_branch {
-width: 960px;
-max-width: 960px;
-height: 350px;
-margin-top: 75px;
-margin: 0 auto;
+	width: 960px;
+	max-width: 960px;
+	height: 350px;
+	margin-top: 75px;
+	margin: 0 auto;
 
 }
 
-.icon {height: 300px;
-width: 300px;
-padding: 10px;
-float: left;
-margin: 0 auto;
-text-align: center;}
+.icon {
+	height: 300px;
+	width: 300px;
+	padding: 10px;
+	float: left;
+	margin: 0 auto;
+	text-align: center;
+}
 
 .icon_b {display: block;
 margin: 0 auto;}
@@ -262,7 +272,7 @@ font-weight: 300;}
 	height: 760px;
 	width: 100%;
 	min-width: 960px;
-background: url(/image/header.png) center no-repeat;
+background: url(image/header.png) center no-repeat;
 	background-size: cover;}
 
 .rodcon {
@@ -440,7 +450,7 @@ min-width: 960px;}
 	height: 500px;
 	width: 100%;
 	min-width: 960px;
-background: url(/image/header.png) center no-repeat;
+background: url(image/header.png) center no-repeat;
 	background-size: cover;}
 
 .info { 
@@ -702,7 +712,7 @@ span{
   height: 401px;
 	width: 100%;
 	min-width: 960px;
-	background: url(/image/master.png) center no-repeat;
+	background: url(image/master.png) center no-repeat;
 	background-size: cover;
 }
 
